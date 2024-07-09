@@ -7,7 +7,7 @@ const totalCards = document.querySelectorAll('.card').length;
 function updateButtons() {
   prevBtn.disabled = currentIndex === 0;
   nextBtn.disabled = currentIndex === totalCards - 1;
-}
+} 
 
 function prevCard() {
   if (currentIndex > 0) {
